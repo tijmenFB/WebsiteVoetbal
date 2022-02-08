@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>Ballieman</h1>
+  <h3>Voor al je voetballen.</h3>
+</div>
+
+<div class="topnav">
+  <a href="homepage.php">Home</a>
+  <a href="Products.php">Products</a>
+  <a href="contact.html" class="active">Contact</a>
+  <a href="shoppingcart.php">Shopping Cart</a>
+  <a href="Login.html" style="float:right">Login</a>
+  <a href="Regristreren.html" style="float:right">Registreren</a>  
+</div>
+
+
+<div class="contactcontainer">
+  <div style="text-align:center">
+    <h2>Contact ons</h2>
+    <p>zit u met vragen? contact ons gerust!</p>
+  </div>
+  <div class="contactrow">
+    <div class="contactcolumn">
+      <img src="images/contact.jpg" style="width:100%">
+    </div>
+    <div class="contactcolumn">
+      <form action="/action_page.php">
+        <label for="fname">Voornaam</label>
+        <input type="text" id="fname" name="firstname" placeholder="Je naam..">
+        <label for="lname">Achternaam</label>
+        <input type="text" id="lname" name="lastname" placeholder="Je achternaam..">
+        <label for="land">Land</label>
+        <select id="land" name="land">
+          <option value="Nederland">Nederland</option>
+          <option value="Belgie">Belgie</option>
+          <option value="England">England</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Vertel iets.." style="height:170px"></textarea>
+        <input type="submit" value="Verstuur">
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+    <p>Author: Tijmen Joacim<br>
+    <a href="mailto:Tijmenfb@gmail.com">Tijmenfb@gmail.com</a><br>
+    <a href="tel:+31618662437">06-18662437</a></p>
+</div>
+
+</body>
+</html>
